@@ -15,8 +15,8 @@ commandInterface.registerCommand({
   arguments: {
     name: /[α-ω]/gi,
   },
-  callback(name): {
-    console.log(`Hello ${name}!`)
-  }
+  callback(name) {
+    console.log(`Hello ${name}!`);
+  },
 });
 ```
