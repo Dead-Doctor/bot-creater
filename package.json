@@ -1,10 +1,11 @@
 {
-  "name": "command-interface",
+  "name": "bot-creater",
   "version": "0.0.1",
-  "description": "A JavaScript Library for parsing one line commands.",
-  "main": "index.js",
+  "description": "A Utility for creating Discord Bots with Commands",
+  "main": "./src/main.js",
   "scripts": {
-    "test": "node ./test.js"
+    "start": "electron .",
+    "build": "electron-packager . --platform=win32 --arch=x64"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,10 @@
     "url": "https://github.com/Dead-Doctor/command-interface/issues"
   },
   "homepage": "https://github.com/Dead-Doctor/command-interface#readme",
+  "devDependencies": {
+    "electron": "^11.3.0",
+    "electron-packager": "^15.2.0"
+  },
   "dependencies": {
     "discord.js": "^12.5.1"
   }
