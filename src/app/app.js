@@ -1,4 +1,4 @@
-const { CommandInterface } = require('./index');
+const { CommandInterface } = require('../libs/commandInterface');
 
 const commandInterface = new CommandInterface('!');
 
