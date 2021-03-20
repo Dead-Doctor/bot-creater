@@ -1,5 +1,3 @@
-const Discord = require('discord.js');
-
 module.exports = {
   CommandInterface: class {
     constructor(prefix) {
