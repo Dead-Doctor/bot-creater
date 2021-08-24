@@ -1,11 +1,13 @@
 const { app, BrowserWindow, dialog, ipcMain } = require('electron');
 
 function createWindow() {
+  console.log(__dirname + 'src/app/resources/icon.png');
   const win = new BrowserWindow({
     width: 800,
     height: 800,
     minWidth: 290,
     minHeight: 300,
+    icon: './src/app/resources/icon.png',
     webPreferences: {
       nodeIntegration: true,
       enableBlinkFeatures: 'CSSColorSchemeUARendering',

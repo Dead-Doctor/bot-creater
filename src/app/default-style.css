@@ -21,6 +21,9 @@
 
 body {
   background-color: var(--sec-color);
+}
+
+main {
   padding: 20px;
 }
 

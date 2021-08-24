@@ -1,1 +1,46 @@
-/* Individual Style */
+header {
+  display: flex;
+  height: 75px;
+  background-color: rgba(255, 255, 255, 0.2);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bot-info {
+  display: flex;
+  height: 100%;
+  padding: 10px;
+  gap: 20px;
+  align-items: center;
+}
+
+.bot-info img {
+  height: 100%;
+  border-radius: 50%;
+  transition: border-radius 0.1s ease-out;
+}
+
+.bot-info img:hover {
+  border-radius: 25%;
+}
+
+.bot-info span {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.settings {
+  height: 100%;
+  padding: 10px;
+}
+
+.settings svg {
+  height: 100%;
+  fill: var(--main-color);
+  transition: all 0.1s ease-out;
+}
+
+.settings svg:hover {
+  height: 100%;
+  fill: var(--sec-color);
+}
